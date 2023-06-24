@@ -1,0 +1,84 @@
+h1, h2{
+	text-align: center;
+}
+
+.staciakampis{
+	width: 600px;
+	margin: auto;
+	background-color: #99ff99;
+	border: 1px dashed;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+img{
+	height: 100px;
+	float: right;
+	border: 1px solid black;
+	opacity: 0.5;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+hr{
+	width: 300px;
+	border: 3px dashed blue;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+p{
+	color: navy;
+	line-height: 2;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+a{
+	text-align: center;
+	display: block;
+}
+
+a:link {
+	color: black;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+p, h1, h2, a{
+	font-family: Georgia, sans-serif;
+}
+
+span{
+	color: blue;
+	font-size: 20px;
+}
